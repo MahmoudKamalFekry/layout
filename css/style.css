@@ -43,7 +43,7 @@ nav ul li {
 
 /* start hero  */
 .hero {
-  background-image: url(/imeges/hero.jpg);
+  background-image: url(imeges/hero.jpg);
   height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
