@@ -37,6 +37,7 @@ header nav ul {
  position: absolute;
  right: 0;
  top: 50px;
+ display: none;
 
 }
 header nav ul li {
