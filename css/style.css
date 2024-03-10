@@ -25,20 +25,38 @@ header nav {
   justify-content: space-between;
   align-items: center;
   padding: 20px 10px;
+  position: relative;
 }
 
 header nav ul {
-  display: flex;
+  width: 200px;
   list-style: none;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+ position: absolute;
+ right: 0;
+ top: 50px;
+
 }
 header nav ul li {
+ text-align: center;
   margin-left: 15px;
+  border-bottom: #5b5858 solid 1px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 5px;
 }
 nav ul li {
   text-decoration: none;
   text-transform: capitalize;
   color: blue;
 }
+.fa-bars {
+  font-size: 30px;
+}
+
 /* end header */
 
 /* start hero  */
@@ -159,6 +177,21 @@ footer {
 /* footer end */
 
 @media (max-width: 667px) {
+  header nav ul {
+    width: 200px;
+    list-style: none;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+   position: absolute;
+   right: 0;
+   top: 50px;
+
+   display: none;
+  
+  }
+
+
   .hero {
     height: 100vh;
   }
